@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "Demo.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) Demo *myDemo;
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
 
 @end
 
@@ -17,7 +21,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    // The only string we have access to here from Demo is the first string. The others are outside of scope
+    [self.myLabel setText:_myDemo.firstString];
+    
 }
 
 - (void)didReceiveMemoryWarning

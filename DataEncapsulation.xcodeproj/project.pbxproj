@@ -21,6 +21,7 @@
 		79985D5218B119B9008BE1E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79985D3418B119B9008BE1E8 /* UIKit.framework */; };
 		79985D5A18B119B9008BE1E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79985D5818B119B9008BE1E8 /* InfoPlist.strings */; };
 		79985D5C18B119B9008BE1E8 /* DataEncapsulationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79985D5B18B119B9008BE1E8 /* DataEncapsulationTests.m */; };
+		79985D6718B11D3B008BE1E8 /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 79985D6618B11D3B008BE1E8 /* Demo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		79985D5718B119B9008BE1E8 /* DataEncapsulationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataEncapsulationTests-Info.plist"; sourceTree = "<group>"; };
 		79985D5918B119B9008BE1E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79985D5B18B119B9008BE1E8 /* DataEncapsulationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataEncapsulationTests.m; sourceTree = "<group>"; };
+		79985D6518B11D3B008BE1E8 /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		79985D6618B11D3B008BE1E8 /* Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				79985D4218B119B9008BE1E8 /* Main.storyboard */,
 				79985D4518B119B9008BE1E8 /* ViewController.h */,
 				79985D4618B119B9008BE1E8 /* ViewController.m */,
+				79985D6518B11D3B008BE1E8 /* Demo.h */,
+				79985D6618B11D3B008BE1E8 /* Demo.m */,
 				79985D4818B119B9008BE1E8 /* Images.xcassets */,
 				79985D3718B119B9008BE1E8 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				79985D4718B119B9008BE1E8 /* ViewController.m in Sources */,
 				79985D4118B119B9008BE1E8 /* AppDelegate.m in Sources */,
+				79985D6718B11D3B008BE1E8 /* Demo.m in Sources */,
 				79985D3D18B119B9008BE1E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
