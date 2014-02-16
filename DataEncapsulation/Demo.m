@@ -25,6 +25,8 @@
     self = [super init];
     
     if (self) {
+        // In this init method we are able to access all three NSString variables/properties because they are within the scope of this method
+        
         // This is the backing instance variable from the first two string properties
         _firstString = @"This is my first string";
         _secondString = @"This is my second string";

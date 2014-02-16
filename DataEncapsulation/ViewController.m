@@ -22,7 +22,10 @@
 {
     [super viewDidLoad];
     
+    _myDemo = [Demo new];
+    
     // The only string we have access to here from Demo is the first string. The others are outside of scope
+    _myDemo.firstString = @"Hello world!";
     [self.myLabel setText:_myDemo.firstString];
     
 }
